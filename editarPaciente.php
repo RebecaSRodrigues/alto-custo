@@ -49,32 +49,6 @@
                             <input class="input" name="ipEstado" type="text" value="<?php echo $paciente["estado"] ?>"/>
                         </div>
                     </div>  
-                    <div class="linha-remedio">                
-                        <select class="form-select column" name="select-remedio">        
-                            <?php foreach ($allRemedios as $remedio): ?>                
-                                <option value="<?= $remedio['codigo'];?>"><?= $remedio['nome'];?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <select class="form-select column" name="select-tipo">
-                            <option value="Frasco">Frasco</option>
-                            <option value="Comprimido">Comprimido</option>
-                            <option value="Ampola">Ampola</option>
-                            <option value="Caneta">Caneta</option>
-                            <option value="Unidade">Unidade</option>
-                            <option value="Caixa">Caixa</option>
-                            <option value="Adesivo">Adesivo</option>
-                        </select>
-                        <select class="form-select column" name="select-status">
-                            <option value="Chegou">Chegou</option>
-                            <option value="Em falta">Em falta</option>
-                            <option value="Precisa renovar">Precisa renovar</option>
-                            <option value="Precisa de receita">Precisa de receita</option>
-                            <option value="Inativo">Inativo</option>
-                            <option value="Aguardando documentação">Aguardando documentação</option>
-                            <option value="NOVO">NOVO</option>
-                        </select>
-                        <input class="form-control" name="ipQdtMensal" type="text" placeholder="Quantidade Mensal"/>
-                    </div>    
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>            
                         <button type="submit" id="btn-editar" name="btn-editar" class="btn btn-primary">Salvar</button>
