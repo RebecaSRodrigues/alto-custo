@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.header-cadastro {
+  background-color: rgb(226, 240, 217);
+  padding: 20px 50px;
+  text-align: center;
+  color: #808080;
+  border-radius: 2em;
+  font-size: 2em;
+}
+
+#div-form {
+  width: 100%;
+  margin: auto;
+}
+#form-usuario {
+  margin: 25px;
+}
+.column {
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+}
+.label {
+  width: 30%;
+  float: left;
+}
+.input {
+  width: 60%;
+  float: right;
+}
+
+#btn-cadastrar,
+#btn-adicionar {
+  background-color: #000000;
+  color: #ffff;
+}
+
+.cadastro-medicamento select,
+.cadastro-medicamento input {
+  margin-right: 5px;
+}
+
+#btn-removerCampo,
+#btn-adicionarCampo {
+  width: 25px;
+  height: 25px;
+  background: #808080;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+#tabela-paciente td:last-child {
+  width: 260px;
+}
+
+#form-usuario label {
+  font-weight: bold;
+}
+
+.bg-verde {
+  background-color: rgb(153, 180, 138);
+}
+
+.div-form {
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-form #form-usuario {
+  justify-content: center;
+}
+
+#pesquisa {
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+}
+
+input:focus {
+  outline: solid 1px;
+}
+
+.linha-remedio {
+  display: flex;
+  height: fit-content;
+}
+
+.linha-remedio input {
+  height: fit-content;
+  align-self: center;
+}
+
+.modal-dialog {
+  max-width: 50rem;
+}
+
+#anotacao {
+  width: 100%;
+}
